@@ -1,0 +1,13 @@
+.home-container {
+    padding: 5px;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 1000px;
+    width: auto;
+    align-items: center;
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-patron-huesos-huellas_1374-18.jpg?t=st=1658858821~exp=1658859421~hmac=b57d72ce60f0e2c8bed71dcde5ba68904a093950c78b03f5d6d58d0d21525f58");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}

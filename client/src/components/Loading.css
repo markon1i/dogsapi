@@ -1,0 +1,27 @@
+.loader {
+    position: absolute;
+   /*  margin-left: 200px; */
+    margin-top: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/1076/1076826.png");
+    background-size: cover;
+    background-repeat:no-repeat; 
+    background-position: center ;
+    background-attachment:fixed;
+    width: 200px;
+    height:200px;
+   /*  border: solid var(--secondary) 14px;
+    border-top-color:var(--primary); */
+    border-radius: 50%;
+    
+   animation: spin 2s linear infinite;
+ }
+
+ @keyframes spin {
+    to{
+       transform:  rotate(360deg);
+    }
+   
+ }

@@ -1,0 +1,75 @@
+.pagination {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.first {
+    background: transparent;
+    border-color: rgb(37, 60, 80);
+    border-radius: 5%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.first:hover {
+    background-color: rgb(127, 130, 138);
+    box-shadow: 2px 2px 8px rgb(57, 147, 250)
+}
+
+.prev {
+    background: transparent;
+    border-color: rgb(37, 60, 80);
+    border-radius: 5%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.prev:hover {
+    background-color: rgb(127, 130, 138);
+    box-shadow: 2px 2px 8px rgb(57, 147, 250)
+}
+
+.next {
+    background: transparent;
+    border-color: rgb(37, 60, 80);
+    border-radius: 5%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.next:hover {
+    background-color: rgb(127, 130, 138);
+    box-shadow: 2px 2px 8px rgb(57, 147, 250)
+}
+
+.last {
+    background: transparent;
+    border-color: rgb(37, 60, 80);
+    border-radius: 5%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.last:hover {
+    background-color: rgb(127, 130, 138);
+    box-shadow: 2px 2px 8px rgb(57, 147, 250)
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.current {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-shadow: .55px .55px .55px white;
+    margin: 5px;
+}

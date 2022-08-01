@@ -1,0 +1,66 @@
+.filter-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.order-weight {
+    background: transparent;
+    border-color: rgb(37, 60, 80);
+    border-radius: 5%;
+    color: black;
+}
+
+.order-weight:hover {
+    background-color: rgb(127, 130, 138);
+    box-shadow: 2px 2px 8px rgb(57, 147, 250);
+}
+
+.order-create {
+    background: transparent;
+    border-color: rgb(37, 60, 80);
+    border-radius: 5%;
+    color: black;
+}
+
+.order-create:hover {
+    background-color: rgb(127, 130, 138);
+    box-shadow: 2px 2px 8px rgb(57, 147, 250)
+}
+
+.order-alf {
+    background: transparent;
+    border-color: rgb(37, 60, 80);
+    border-radius: 5%;
+    color: black;
+}
+
+.order-alf:hover {
+    background-color: rgb(127, 130, 138);
+    box-shadow: 2px 2px 8px rgb(57, 147, 250)
+}
+
+.order-temp {
+    background: transparent;
+    border-color: rgb(37, 60, 80);
+    border-radius: 5%;
+    color: black;
+}
+
+.order-temp:hover {
+    background-color: rgb(127, 130, 138);
+    box-shadow: 2px 2px 8px rgb(57, 147, 250)
+}
+
+.buttonAllDogs {
+    background: transparent;
+    border-color: rgb(37, 60, 80);
+    border-radius: 5%;
+    color: black;
+}
+
+.buttonAllDogs:hover {
+    background-color: rgb(127, 130, 138);
+    box-shadow: 2px 2px 8px rgb(57, 147, 250)
+}

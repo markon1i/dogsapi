@@ -1,0 +1,79 @@
+.Nav {
+    background-color: black;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: double;
+    border-color: rgb(215, 230, 19);
+}
+
+.Lg{
+    /* display: flex;
+    justify-content: flex-start;
+    float: left;
+    margin-left: 3px; */
+  padding: 20px 30px 10px 15px;
+    width: 30px;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.Btn {
+    display: flex;
+    text-align: center;
+    padding: 14px 16px;
+    justify-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: white;
+    size: 60px;
+}
+
+.Btn:hover {
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.Search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: center;
+    align-content: center;
+    align-items: center;
+    margin-left: 15em;
+   
+}
+
+.link {
+    display: flex;
+    text-align: center;
+    padding: 14px 16px;
+    justify-items: center;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: white;
+
+}
+.Create {
+    display: flex;
+    text-align: center;
+    padding: 14px 16px;
+    justify-items: center;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: white;
+    size: 60px;
+    margin-left: 25em;
+}
+
+.Create:hover {
+    background-color: gray;
+    border-radius: 50%;
+}
