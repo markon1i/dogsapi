@@ -1,6 +1,6 @@
 const { Router } = require('express');
 const axios = require('axios');
-const { Temp, Dog } = require('../db');
+const { Temp, Dog } = require('./src/db');
 const { Op } = require("sequelize");
 // Importar todos los routers;
 // Ejemplo: const authRouter = require('./auth.js');
